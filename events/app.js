@@ -30,8 +30,10 @@ const li = document.querySelector('ul li:first-child');
 const newLi = document.createElement('li')
 newLi.innerHTML = 'Bonjour'
 document.querySelector('ul').appendChild(newLi)
+
 // autre li
 const newLi2 = document.createElement('li')
 newLi2.innerHTML = 'Bonjour'
 document.querySelector('ul').appendChild(newLi2)
 
+// end fil
