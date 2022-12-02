@@ -1,0 +1,24 @@
+
+/* style.css */
+
+* {
+    border-radius: 30px;
+    padding: 8px;
+    text-align: left;
+}
+body {
+    min-height: 100wh;
+    transition: .5s;
+}
+img {
+    margin: 0 auto;
+    height: 300px;
+    visibility: hidden;
+    transform: 1s;
+}
+.show{
+    visibility: visible;
+}
+.red{
+    color:red;
+}
