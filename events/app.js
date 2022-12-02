@@ -36,4 +36,4 @@ const newLi2 = document.createElement('li')
 newLi2.innerHTML = 'Bonjour'
 document.querySelector('ul').appendChild(newLi2)
 
-// end fil
+// end file
