@@ -13,21 +13,25 @@ console.log(
 )
 
 
-
-/*
 setInterval(()=>{
     ul.classList.toggle('red')
 },1000)
-*/
+
+
 //ul.setAttribute('hidden', 'hidden')
 //ul.innerHTML = 'Hello'
 //ul.removeAttribute('hidden')
 
 // styler un li
 const li = document.querySelector('ul li:first-child');
-li.style.color = 'blue';
-li.style.fontWeight = 'bold'
+//li.style.color = 'blue';
+//li.style.fontWeight = 'bold'
 
 const newLi = document.createElement('li')
 newLi.innerHTML = 'Bonjour'
 document.querySelector('ul').appendChild(newLi)
+// autre li
+const newLi2 = document.createElement('li')
+newLi2.innerHTML = 'Bonjour'
+document.querySelector('ul').appendChild(newLi2)
+
